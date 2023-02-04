@@ -35,11 +35,11 @@ div#text_q{
 
 div#text_s{
     position:relative;
-		top:600px;
-		left:50px;
+		top:570px;
+		left:63px;
     font-size: 17px;
-    width:310px;
-    height: 90px;
+    width:290px;
+    height: 100px;
 }
 
 #nextbutton{

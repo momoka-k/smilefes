@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/start.png'); 
+    background-image: url('img/home.png'); 
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
@@ -23,16 +23,6 @@ html {
     }
   }
 
-nav{
-    position:absolute;
-    text-align: center;
-	  top: 900px;
-   left:185px;
-    font-size: 18px;
-    width:200px;
-    height: 90px;
-    z-index:10000;
-}
 .btn{
     width:500px;
     height:200px;
@@ -45,3 +35,13 @@ nav{
     text-align: center;
   }
 
+nav{
+    position:absolute;
+    text-align: center;
+	  top: 750px;
+	  left:130px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;
+}

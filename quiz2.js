@@ -7,7 +7,7 @@
         }     */
 //-----------------------------------------------------------------------------
 //変数の定義---------------------------------------------------------------------
-    var count   = 180;     //カウントダウンの数字を格納する変数  3分なので180
+    var count   = 300;     //カウントダウンの数字を格納する変数  3分なので180
     var min     = 0;       //残り時間「分」を格納する変数
     var sec     = 0;       //残り時間「秒」を格納する変数
     var start_f = false; 
@@ -199,7 +199,7 @@ function questionDisplay(){
 
   //開始ボタンを無効にする
   var nextbutton = document.getElementById("nextbutton");
-  nextbutton.value = "★★★";
+  nextbutton.value = "❤❤❤";
 
   num = Math.floor(Math.random() * 3);
 
