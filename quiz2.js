@@ -199,7 +199,7 @@ function questionDisplay(){
 
   //開始ボタンを無効にする
   var nextbutton = document.getElementById("nextbutton");
-  nextbutton.value = "❤❤❤";
+  nextbutton.value = "★★★";
 
   num = Math.floor(Math.random() * 3);
 
