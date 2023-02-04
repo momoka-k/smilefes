@@ -1,0 +1,246 @@
+body{
+    background-image: url('img/quiz.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+p#default{
+    position:relative;
+		top: 22px;
+		left:260px;
+    color:rgb(248, 42, 118);
+    font-size: 35px;
+}
+
+div#quest{
+    position:relative;
+		top: 360px;
+		left:50px;
+    font-size: 14px;
+    width:310px;
+    height: 90px;
+}
+
+.parent {
+  /*親要素はrelativeに*/
+  position: relative;
+  padding: 20px;
+}
+
+div#sentaku1{
+    position:absolute;
+    text-align: center;
+		top: 35px;
+		left:0px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;
+}
+
+/* #select1{
+    position:absolute;
+		top: 385px;
+		left:60px;
+    font-size: 14px;
+} */
+
+div#sentaku2{
+    position:absolute;
+    text-align: center;
+		top: 35px;
+		left:0px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;
+}
+
+div#sentaku3{
+    position:absolute;
+    text-align: center;
+		top: 35px;
+		left:0px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;
+}
+
+div#sentaku4{
+    position:absolute;
+    text-align: center;
+		top: 35px;
+		left:0px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;
+}
+
+.example1{
+    display: flex;
+}
+.example1 label{
+    position:absolute;
+    top: 370px;
+		left:18px;
+    display: block;
+    background: #eac3dc;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 173px;
+    height: 95px;
+}
+.example1 input:checked+label{
+    background: #e984c4;
+    color: #FFF;
+}
+.example1 input{
+    display: none;
+}
+
+.example2{
+    display: flex;
+}
+.example2 label{
+    position:absolute;
+    top: 370px;
+		left:205px;
+    display: block;
+    background: #eac3dc;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 173px;
+    height: 95px;
+}
+.example2 input:checked+label{
+    background: #e984c4;
+    color: #FFF;
+}
+.example2 input{
+    display: none;
+}
+
+.example3{
+    display: flex;
+}
+.example3 label{
+    position:absolute;
+    top: 475px;
+		left:18px;
+    display: block;
+    background: #eac3dc;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 173px;
+    height: 95px;
+}
+.example3 input:checked+label{
+    background: #e984c4;
+    color: #FFF;
+}
+.example3 input{
+    display: none;
+}
+
+.example4{
+    display: flex;
+}
+.example4 label{
+    position:absolute;
+		top: 475px;
+		left:205px;
+    display: block;
+    background: #eac3dc;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 173px;
+    height: 95px;
+}
+.example4 input:checked+label{
+    background: #e984c4;
+    color: #FFF;
+}
+.example4 input{
+    display: none;
+}
+
+#atari { position:absolute; width:200px; height:40px; top:280px; left:120px; border-radius: 10px; visibility: hidden; }
+#hazure{ position:absolute; width:200px; height:40px; top:280px; left:120px; border-radius: 10px; visibility: hidden;} 
+
+#nextbutton{
+  position:absolute;
+  text-align: center;
+  top: 600px;
+  left: 300px;
+  font-size: 15px;
+  width: 120px;
+  height: 50px;
+  z-index: 10000;
+  border-radius: 5px;
+  background-color: rgb(252, 151, 183); 
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+#kekka{
+  position:absolute;
+  text-align: center;
+  top: 600px;
+  left: 165px;
+  font-size: 15px;
+  width: 90px;
+  height: 50px;
+  z-index: 10000;
+  border-radius: 5px;
+  background-color: rgb(151, 164, 252); 
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}

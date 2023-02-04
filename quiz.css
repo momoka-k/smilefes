@@ -1,0 +1,74 @@
+body{
+    background-image: url('img/quiz.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+p#default{
+    position:relative;
+		top: 22px;
+		left:260px;
+    color:rgb(248, 42, 118);
+    font-size: 35px;
+}
+
+div#quest{
+    position:relative;
+		top: 335px;
+		left:50px;
+    font-size: 14px;
+    width:310px;
+    height: 90px;
+}
+
+.parent {
+  /*親要素はrelativeに*/
+  position: relative;
+  padding: 20px;
+}
+
+div#sentaku1{
+    position:absolute;
+		top: 385px;
+		left:60px;
+    font-size: 14px;
+}
+
+div#sentaku2{
+    position:absolute;
+		top: 385px;
+		left:270px;
+    font-size: 14px;
+}
+
+div#sentaku3{
+    position:absolute;
+		top: 490px;
+		left:60px;
+    font-size: 14px;
+}
+
+div#sentaku4{
+    position:absolute;
+		top: 490px;
+		left:270px;
+    font-size: 14px;
+}
