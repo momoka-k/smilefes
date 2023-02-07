@@ -267,7 +267,7 @@ function myFunction() {
 
       if(group < 4){
         var nextbutton = document.getElementById("nextbutton");
-        nextbutton.value = "つぎへ";
+        nextbutton.value = "次へ";
       }else{
         var nextbutton = document.getElementById("nextbutton");
         nextbutton.value = "次へ";
@@ -281,7 +281,7 @@ function myFunction() {
       var hazure = document.getElementById('hazure');
       hazure.style.visibility = 'visible';
       var nextbutton = document.getElementById("nextbutton");
-      nextbutton.value = "やりなおし";
+      nextbutton.value = "やり直し";
       //nextbutton.innerHTML = "やり直し";
     }
     //popup.classList.toggle("show");
