@@ -7,7 +7,7 @@
         }     */
 //-----------------------------------------------------------------------------
 //変数の定義---------------------------------------------------------------------
-    var count   = 300;     //カウントダウンの数字を格納する変数  3分なので180
+    var count   = 120;     //カウントダウンの数字を格納する変数  3分なので180
     var min     = 0;       //残り時間「分」を格納する変数
     var sec     = 0;       //残り時間「秒」を格納する変数
     var start_f = false; 
@@ -267,7 +267,7 @@ function myFunction() {
 
       if(group < 4){
         var nextbutton = document.getElementById("nextbutton");
-        nextbutton.value = "次へ";
+        nextbutton.value = "つぎへ";
       }else{
         var nextbutton = document.getElementById("nextbutton");
         nextbutton.value = "次へ";
@@ -281,7 +281,7 @@ function myFunction() {
       var hazure = document.getElementById('hazure');
       hazure.style.visibility = 'visible';
       var nextbutton = document.getElementById("nextbutton");
-      nextbutton.value = "やり直し";
+      nextbutton.value = "やりなおし";
       //nextbutton.innerHTML = "やり直し";
     }
     //popup.classList.toggle("show");
