@@ -157,7 +157,7 @@ function count_down(){
 //010------------60秒で割ったあまりが秒となる-------------------------------------
             sec = count % 60;
             var count_down = document.getElementById("default");
-            count_down.innerHTML = ("0"+min) +":" + ("0"+sec).slice(-2);
+            count_down.innerHTML = (min) +":" + ("0"+sec).slice(-2);
         }
 }
 

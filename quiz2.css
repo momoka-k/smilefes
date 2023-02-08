@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/quiz.png');
+    background-image: url('img/quiz2.png');
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
@@ -24,15 +24,17 @@ html {
 
 p#default{
     position:relative;
-		top: 22px;
-		left:260px;
-    color:rgb(248, 42, 118);
-    font-size: 35px;
+		top: -23px;
+		left:278px;
+    color:#CC0076;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 600;
 }
 
 div#quest{
     position:relative;
-		top: 360px;
+		top: 320px;
 		left:50px;
     font-size: 14px;
     width:310px;
