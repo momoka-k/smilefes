@@ -1,3 +1,9 @@
+@media screen and (max-width: 450px) {
+  /* 適用したいCSSを書く */
+}
+@media screen and (min-width: 300px) {
+  /* 適用したいCSSを書く */
+}
 body{
     background-image: url('img/home.png'); 
     background-repeat: no-repeat;

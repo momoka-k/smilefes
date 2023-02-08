@@ -27,22 +27,11 @@ body{
 
 
 
-.button{
-    width:500px;
-    height:200px;
-    border-radius: 5px;
-    background-color: rgb(252, 151, 183); 
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-  }
 
 .menu{
     position:absolute;
     text-align: center;
-	  top: 870px;
+	  top: 840px;
 	  left:10px;
     font-size: 18px;
     width:160px;
@@ -51,12 +40,34 @@ body{
 }
 
 .link{
-    position:absolute;
-    text-align: center;
-	  top: 300px;
-	  left:68px;
-    font-size: 18px;
-    width:300px;
-    height: 90px;
-    z-index:10000;
+    display: flex;
 }
+.link label{
+    position:absolute;
+		top: 270px;
+		left:50px;
+    display: block;
+    background: #eac3dc;
+    color: #000;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    color: #FFF;
+}
+.link input:checked+label{
+    background: #e984c4;
+    color: #FFF;
+}
+.link input{
+    display: none;
+}
+
+
+
