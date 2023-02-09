@@ -293,7 +293,7 @@ function myFunction() {
       var hazure = document.getElementById('hazure');
       hazure.style.visibility = 'visible';
       var nextbutton = document.getElementById("nextbutton");
-      nextbutton.value = "再挑戦";
+      nextbutton.value = "もう一度";
       //nextbutton.innerHTML = "やり直し";
     }
     //popup.classList.toggle("show");
