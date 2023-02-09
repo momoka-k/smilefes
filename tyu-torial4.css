@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/play.png'); 
+    background-image: url('img/tyutoriaru4.png'); 
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
@@ -23,25 +23,22 @@ html {
   }
 }
 
+.btn{
+  border-radius: 5px;
+  background-color: rgb(252, 151, 183); 
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
 
 nav{
   position:absolute;
   text-align: center;
-  top: 570px;
-  left:20px;
-  font-size: 20px;
-  width:400px;
-  height: 200px;
+  top: 850px;
+  left:290px;
+  font-size: 18px;
+  width:160px;
+  height: 90px;
   z-index:10000;
 }
-.btn{
-    width:500px;
-    height:200px;
-    border-radius: 5px;
-    background-color: rgb(252, 151, 183); 
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-  }
