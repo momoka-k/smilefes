@@ -21,13 +21,13 @@
       ["プロジェクションマッピングの映像に出てくる、黄色い背景にふわふわと浮かび上がるシャボン玉は、働く前の女性が抱いている仕事やプライベートでの将来の何と何を表現していますか。", 
        "青いクリスタルの上に出てくる、「鎖」は育児や介護などのライフイベントによる時間的な何を表現しているかな。", 
        "女性にしか起きないライフイベントはなにかな？"],//第1問(1班)
-      ["2班の衣装の袖口、襟元などLGBTQのマークに使われているよ。このマークはなんでしょう？", 
-       "2班の衣装全体の生地はオーロラ生地にしてるよ。これは、○○の多様性を表しているよ。○○とはなーんだ。", 
-       "2班のマントは、何を表しているでしょう？"],//第2問
+      ["衣装の袖口、襟元などLGBTQのマークに使われているよ。このマークはなんでしょう？", 
+       "衣装全体の生地はオーロラ生地にしてるよ。これは、○○の多様性を表しているよ。○○とはなーんだ。", 
+       "マントは、何を表しているでしょう？"],//第2問
       ["衣装の胸元の黄色い花のコサージュは、何を表しているでしょう。",
        "衣装のスカートの上に被さっている檻のようなスカートは、何でしょう。",
        "衣装のスカートの上の青い光は、オンライン化による新たな何を表しているでしょうか。"],//第3問
-      ["4班の衣装はどの時代を表しているでしょうか。",
+      ["衣装はどの時代を表しているでしょうか。",
        "真ん中のハートは何を表しているのでしょうか。",
        "アイドルという概念が生まれたのは何年でしょうか。"],//第4問
       ["","",""],//ダミー
@@ -119,6 +119,14 @@
       "2",
       "3",
       "4",
+    ];
+
+    const groupthema = [
+      ["第1問!","team1のテーマは、女性が正規雇用で継続して働ける社会だよ"],//1班
+      ["第2問!","team2テーマは、セックスとジェンダーだよ"],//2班
+      ["第3問!","team3のテーマは、コロナによる入学式/卒業式の変化だよ"],//3班
+      ["第4問!","team4のテーマは、女性アイドルにおける人数と変遷だよ"],//4班
+      ["",""],//ダミー
     ];
 
 
@@ -218,7 +226,11 @@ function questionDisplay(){
   let sentaku4 = document.getElementById("sentaku4");
   sentaku4.innerHTML = sentakusi4[group][num];
 
-  
+  var groupname = document.getElementById("groupname");
+  groupname.innerHTML = groupthema[group][0];
+
+  var groupname2 = document.getElementById("groupname2");
+  groupname2.innerHTML = groupthema[group][1];
   /*popup_atari_hidden();
   popup_hazure_hidden();*/
 }
@@ -281,7 +293,7 @@ function myFunction() {
       var hazure = document.getElementById('hazure');
       hazure.style.visibility = 'visible';
       var nextbutton = document.getElementById("nextbutton");
-      nextbutton.value = "やり直し";
+      nextbutton.value = "再挑戦";
       //nextbutton.innerHTML = "やり直し";
     }
     //popup.classList.toggle("show");
