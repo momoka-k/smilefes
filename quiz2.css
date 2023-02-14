@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/game2.png');
+    background-image: url('img/quiz2.png');
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
@@ -71,7 +71,7 @@ div#groupname2{
 div#sentaku1{
     position:absolute;
     text-align: center;
-		top: 35px;
+		top: 31px;
 		left:0px;
     font-size: 18px;
     width:160px;
@@ -89,7 +89,7 @@ div#sentaku1{
 div#sentaku2{
     position:absolute;
     text-align: center;
-		top: 35px;
+		top: 31px;
 		left:0px;
     font-size: 18px;
     width:160px;
@@ -100,7 +100,7 @@ div#sentaku2{
 div#sentaku3{
     position:absolute;
     text-align: center;
-		top: 35px;
+		top: 31px;
 		left:0px;
     font-size: 18px;
     width:160px;
@@ -111,7 +111,7 @@ div#sentaku3{
 div#sentaku4{
     position:absolute;
     text-align: center;
-		top: 35px;
+		top: 31px;
 		left:0px;
     font-size: 18px;
     width:160px;
