@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/quiz2.png');
+    background-image: url('img/game2.png');
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
@@ -24,8 +24,8 @@ html {
 
 p#default{
     position:relative;
-		top: -23px;
-		left:278px;
+		top: 0px;
+		left:270px;
     color:#CC0076;
     font-size: 50px;
     font-family: Arial;
@@ -34,7 +34,7 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 320px;
+		top: 150px;
 		left:50px;
     font-size: 14px;
     width:310px;
@@ -43,27 +43,25 @@ div#quest{
 
 div#groupname{
     position:relative;
-		top: 90px;
+		top: 275px;
 		left:50px;
     font-size: 14px;
     width:310px;
-    height: 20px;
-    background-color: rgba(232, 43, 179, 0.6);
-    color: #ffffff;
+    height: 90px;
     font-weight: bolder;
 }
 
 div#groupname2{
     position:relative;
-		top: 90px;
+		top: 205px;
+		left:50px;
 		left:50px;
     font-size: 14px;
     width:310px;
-    height: 40px;
-    background-color: rgba(232, 43, 179, 0.6);
-    color: #ffffff;
+    height: 90px;
     font-weight: bolder;
 }
+
 .parent {
   /*親要素はrelativeに*/
   position: relative;
@@ -126,7 +124,7 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 270px;
+    top: 150px;
 		left:18px;
     display: block;
     background: #eac3dc;
@@ -154,7 +152,7 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 270px;
+    top: 150px;
 		left:205px;
     display: block;
     background: #eac3dc;
@@ -182,7 +180,7 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 375px;
+    top: 275px;
 		left:18px;
     display: block;
     background: #eac3dc;
@@ -210,7 +208,7 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-		top: 375px;
+		top: 275px;
 		left:205px;
     display: block;
     background: #eac3dc;
@@ -239,7 +237,7 @@ div#sentaku4{
 #nextbutton{
   position:absolute;
   text-align: center;
-  top: 500px;
+  top: 400px;
   left: 295px;
   font-size: 15px;
   width: 120px;
@@ -256,7 +254,7 @@ div#sentaku4{
 #kekka{
   position:absolute;
   text-align: center;
-  top: 500px;
+  top: 400px;
   left: 150px;
   font-size: 15px;
   width: 120px;
