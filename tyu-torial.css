@@ -5,7 +5,7 @@ body{
     height: auto;
     }
 
-    html {
+html {
       animation-name: fadeInAnime;
       animation-duration: 1s;
       animation-fill-mode: forwards;

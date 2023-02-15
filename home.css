@@ -67,9 +67,22 @@ html {
     }
   }
 
+
+
+nav{
+    position:relative;
+    text-align: center;
+	  top: 700px;
+    left:-50px
+	 /*  left: 430px;
+    font-size: 18px;
+    width:160px;
+    height: 90px;
+    z-index:10000;*/
+}
+
 .btn{
-    width:500px;
-    height:200px;
+    position:absolute;
     border-radius: 100px;
     background-color: rgb(252, 151, 183); 
     padding: 10px;
@@ -78,14 +91,3 @@ html {
     font-size: 25px;
     text-align: center;
   }
-
-nav{
-    position:relative;
-    text-align: center;
-	 top: 500px;
-	 /*  left: 430px;
-    font-size: 18px;
-    width:160px;
-    height: 90px;
-    z-index:10000;*/
-}
