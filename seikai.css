@@ -46,8 +46,8 @@ nav{
 div{
   text-align: left;
   position:absolute;
-  top:40%;
-  left:31%;
+  top:37%;
+  left:32%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -62,19 +62,22 @@ div{
 }
 
 .seikai1{
-    top: 620px;
+    top: 65%;
+    left:32%;
     font-size: 28px;
     width: 400px;
 }
 
 .seikai2{
-    top: 660px;
+    top: 70%;
+    left:32%;
     font-size: 28px;
     width: 400px;
 }
 
 .seikai3{
-    top: 790px;
+    top: 83%;
+    left:32%;
     font-size: 28px;
     width: 400px;
 }
