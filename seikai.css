@@ -47,7 +47,7 @@ div{
   text-align: left;
   position:absolute;
   top:37%;
-  left:32%;
+  left:33%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -63,21 +63,21 @@ div{
 
 .seikai1{
     top: 65%;
-    left:32%;
+    left:40%;
     font-size: 28px;
     width: 400px;
 }
 
 .seikai2{
-    top: 70%;
-    left:32%;
+    top: 68%;
+    left:40%;
     font-size: 28px;
     width: 400px;
 }
 
 .seikai3{
-    top: 83%;
-    left:32%;
+    top: 80%;
+    left:40%;
     font-size: 28px;
     width: 400px;
 }
