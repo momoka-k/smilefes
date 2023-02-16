@@ -77,29 +77,29 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 470px;
+		top: 440px;
 		left:26%;
-    font-size: 28px;
-    width:480px;
+    font-size: 25px;
+    width:470px;
     height: 200px;
     /*height: 90px;*/
 }
 
 div#groupname{
     position:relative;
-		top: 400px;
+		top: 420px;
 		left:26%;
-    font-size: 28px;
-    width:400px;
+    font-size: 25px;
+    width:470px;
     font-weight: bolder;
 }
 
 div#groupname2{
     position:relative;
-		top: 435px;
+		top: 420px;
 		left:26%;
-    font-size: 28px;
-    width:400px;
+    font-size: 25px;
+    width:470px;
     font-weight: bolder;
 }
 
@@ -279,9 +279,9 @@ div#sentaku4{
   position:absolute;
   text-align: center;
   top: 770px;
-  left: 670px;
+  left: 600px;
   font-size: 15px;
-  width: 120px;
+  width: 140px;
   height: 50px;
   z-index: 10000;
   border-radius: 5px;
