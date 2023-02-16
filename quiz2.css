@@ -70,7 +70,7 @@ p#default{
 		top: 20px;
 		left:60%;
     color:#CC0076;
-    font-size: 55px;
+    font-size: 70px;
     font-family: Arial;
     font-weight: 600;
 }
@@ -80,8 +80,8 @@ div#quest{
 		top: 340px;
 		left:27%;
     font-size: 28px;
-    width:310px;
-    height: 90px;
+    width:400px;
+    /*height: 90px;*/
 }
 
 div#groupname{
@@ -96,7 +96,7 @@ div#groupname{
 
 div#groupname2{
     position:relative;
-		top: 395px;
+		top: 505px;
 		left:27%;
     font-size: 28px;
     width:310px;
@@ -166,7 +166,7 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 400px;
+    top: 480px;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -194,7 +194,7 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 400px;
+    top: 480px;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -222,7 +222,7 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 525px;
+    top: 605px;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -250,7 +250,7 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-		top: 525px;
+		top: 605px;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -279,8 +279,8 @@ div#sentaku4{
 #nextbutton{
   position:absolute;
   text-align: center;
-  top: 870px;
-  left: 600px;
+  top: 830px;
+  left: 700px;
   font-size: 15px;
   width: 120px;
   height: 50px;
@@ -290,14 +290,14 @@ div#sentaku4{
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: 50px;
+  font-size: 28px;
 }
 
 #kekka{
   position:absolute;
   text-align: center;
-  top: 870px;
-  left: 50%;
+  top: 830px;
+  left: 45%;
   font-size: 15px;
   width: 120px;
   height: 50px;
@@ -307,5 +307,5 @@ div#sentaku4{
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: 50px;
+  font-size: 28px;
 }
