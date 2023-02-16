@@ -66,10 +66,10 @@ div{
 
 div#text_s{
     position:relative;
-    top:980px;
-		left:50%;
+    top:960px;
+		left:53%;
     font-size: 28px;
-    width:500px;
+    width:480px;
 }
 
 #nextbutton{
