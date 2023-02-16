@@ -77,8 +77,8 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 340px;
-		left:27%;
+		top: 320px;
+		left:26%;
     font-size: 28px;
     width:400px;
     /*height: 90px;*/
@@ -86,21 +86,19 @@ div#quest{
 
 div#groupname{
     position:relative;
-		top: 465px;
-		left:27%;
+		top: 370px;
+		left:26%;
     font-size: 28px;
-    width:310px;
-    height: 90px;
+    width:400px;
     font-weight: bolder;
 }
 
 div#groupname2{
     position:relative;
 		top: 505px;
-		left:27%;
+		left:26%;
     font-size: 28px;
-    width:310px;
-    height: 90px;
+    width:400px;
     font-weight: bolder;
 }
 
@@ -166,7 +164,7 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 480px;
+    top: 450px;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -194,7 +192,7 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 480px;
+    top: 450px;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -222,7 +220,7 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 605px;
+    top: 575px;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -250,7 +248,7 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-		top: 605px;
+		top: 575px;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -273,14 +271,14 @@ div#sentaku4{
     display: none;
 }
 
-#atari { position:absolute; width:200px; height:40px; top:400px; left:50%; border-radius: 10px; visibility: hidden; }
-#hazure{ position:absolute; width:200px; height:40px; top:400px; left:50%; border-radius: 10px; visibility: hidden;} 
+#atari { position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden; }
+#hazure{ position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden;} 
 
 #nextbutton{
   position:absolute;
   text-align: center;
-  top: 830px;
-  left: 700px;
+  top: 770px;
+  left: 670px;
   font-size: 15px;
   width: 120px;
   height: 50px;
@@ -296,7 +294,7 @@ div#sentaku4{
 #kekka{
   position:absolute;
   text-align: center;
-  top: 830px;
+  top: 770px;
   left: 45%;
   font-size: 15px;
   width: 120px;
