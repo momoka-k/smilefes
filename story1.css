@@ -46,8 +46,8 @@ nav{
 div{
     position:absolute;
     text-align: left;
-    bottom: 28%;
-    left: 43%;
+    /*bottom: 28%;
+    left: 43%;*/
     font-size: 28px;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -64,16 +64,16 @@ div{
     height: 90px;
 }*/
 
-.text_s{
+div#text_s{
     position:relative;
-    top:900px;
+    top:920px;
 		left:60%;
     font-size: 28px;
     width:320px;
     height: 100px;
 }
 
-.next{
+#nextbutton{
     border-radius: 5px;
     background-color: rgb(252, 151, 183); 
     padding: 10px;

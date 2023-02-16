@@ -67,17 +67,17 @@ html {
 
 p#default{
     position:relative;
-		top: 0px;
-		left:70%;
+		top: 20px;
+		left:60%;
     color:#CC0076;
-    font-size: 50px;
+    font-size: 55px;
     font-family: Arial;
     font-weight: 600;
 }
 
 div#quest{
     position:relative;
-		top: 150px;
+		top: 300px;
 		left:30%;
     font-size: 14px;
     width:310px;
@@ -86,7 +86,7 @@ div#quest{
 
 div#groupname{
     position:relative;
-		top: 275px;
+		top: 425px;
 		left:30%;
     font-size: 14px;
     width:310px;
@@ -96,7 +96,7 @@ div#groupname{
 
 div#groupname2{
     position:relative;
-		top: 205px;
+		top: 355px;
 		left:30%;
     font-size: 14px;
     width:310px;
@@ -166,8 +166,8 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 150px;
-		left:30%;
+    top: 300px;
+		left:25%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -194,8 +194,8 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 150px;
-		left:55%;
+    top: 300px;
+		left:50%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -222,8 +222,8 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 275px;
-		left:30%;
+    top: 425px;
+		left:25%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -250,8 +250,8 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-		top: 275px;
-		left:55%;
+		top: 425px;
+		left:50%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -273,14 +273,14 @@ div#sentaku4{
     display: none;
 }
 
-#atari { position:absolute; width:200px; height:40px; top:280px; left:120px; border-radius: 10px; visibility: hidden; }
-#hazure{ position:absolute; width:200px; height:40px; top:280px; left:120px; border-radius: 10px; visibility: hidden;} 
+#atari { position:absolute; width:200px; height:40px; top:400px; left:50%; border-radius: 10px; visibility: hidden; }
+#hazure{ position:absolute; width:200px; height:40px; top:400px; left:50%; border-radius: 10px; visibility: hidden;} 
 
 #nextbutton{
   position:absolute;
   text-align: center;
-  top: 400px;
-  left: 295px;
+  top: 920px;
+  left: 320px;
   font-size: 15px;
   width: 120px;
   height: 50px;
@@ -296,8 +296,8 @@ div#sentaku4{
 #kekka{
   position:absolute;
   text-align: center;
-  top: 400px;
-  left: 150px;
+  top: 920px;
+  left: 350px;
   font-size: 15px;
   width: 120px;
   height: 50px;
