@@ -67,7 +67,7 @@ html {
 
 p#default{
     position:relative;
-		top: 20px;
+		top: 10%;
 		left:60%;
     color:#CC0076;
     font-size: 70px;
@@ -77,7 +77,7 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 430px;
+		top: 52%;
 		left:25%;
     font-size: 24px;
     width:475px;
@@ -87,7 +87,7 @@ div#quest{
 
 div#groupname{
     position:relative;
-		top: 420px;
+		top: 50%;
 		left:25%;
     font-size: 24px;
     width:475px;
@@ -96,7 +96,7 @@ div#groupname{
 
 div#groupname2{
     position:relative;
-		top: 420px;
+		top: 50%;
 		left:25%;
     font-size: 24px;
     width:475px;
@@ -165,7 +165,7 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 450px;
+    top: 60%;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -193,7 +193,7 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 450px;
+    top: 60%;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -221,7 +221,7 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 575px;
+    top: 80%;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -249,7 +249,7 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-		top: 575px;
+		top: 80%;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -278,7 +278,7 @@ div#sentaku4{
 #nextbutton{
   position:absolute;
   text-align: center;
-  top: 770px;
+  top: 85%;
   left: 600px;
   font-size: 15px;
   width: 150px;
@@ -295,7 +295,7 @@ div#sentaku4{
 #kekka{
   position:absolute;
   text-align: center;
-  top: 770px;
+  top: 85%;
   left: 45%;
   font-size: 15px;
   width: 120px;
