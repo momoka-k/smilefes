@@ -30,7 +30,7 @@
       ["衣装はどの時代を表しているでしょうか。",
        "真ん中のハートは何を表しているのでしょうか。",
        "アイドルという概念が生まれたのは何年でしょうか。"],//第4問
-      ["","",""],//ダミー
+      ["                                                                                                                                                                      ","",""],//ダミー
     ]; //各班ごとに分けたよ
 
     const sentakusi1 = [
@@ -211,8 +211,13 @@ function questionDisplay(){
 
   num = Math.floor(Math.random() * 3);
 
+  //前の文が残らないようにする
+  var dummy = document.getElementById("quest");
+  dummy.innerHTML = question[4][0];
+
   var quest = document.getElementById("quest");
   quest.innerHTML = question[group][num];
+
 
   let select1 = document.getElementById("sentaku1");
   select1.textContent = sentakusi1[group][num];
