@@ -44,15 +44,15 @@ nav{
 
 .seikai{
     position:relative;
-		top: 800px;
-		left:30%;
+		top: 1000px;
+		left:29%;
     font-size: 28px;
     width: 400px;
 }
 
 div#seikaido{
   position:absolute;
-  top:450px;
+  top:500px;
   left:30%;
   color:rgb(226, 43, 165);
   font-size: 90px;
