@@ -68,7 +68,7 @@ html {
 p#default{
     position:relative;
 		top: 0px;
-		left:270px;
+		left:70%;
     color:#CC0076;
     font-size: 50px;
     font-family: Arial;
@@ -78,7 +78,7 @@ p#default{
 div#quest{
     position:relative;
 		top: 150px;
-		left:50px;
+		left:30%;
     font-size: 14px;
     width:310px;
     height: 90px;
@@ -87,7 +87,7 @@ div#quest{
 div#groupname{
     position:relative;
 		top: 275px;
-		left:50px;
+		left:30%;
     font-size: 14px;
     width:310px;
     height: 90px;
@@ -97,8 +97,7 @@ div#groupname{
 div#groupname2{
     position:relative;
 		top: 205px;
-		left:50px;
-		left:50px;
+		left:30%;
     font-size: 14px;
     width:310px;
     height: 90px;
@@ -168,7 +167,7 @@ div#sentaku4{
 .example1 label{
     position:absolute;
     top: 150px;
-		left:18px;
+		left:30%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -196,7 +195,7 @@ div#sentaku4{
 .example2 label{
     position:absolute;
     top: 150px;
-		left:205px;
+		left:55%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -224,7 +223,7 @@ div#sentaku4{
 .example3 label{
     position:absolute;
     top: 275px;
-		left:18px;
+		left:30%;
     display: block;
     background: #eac3dc;
     color: #000;
@@ -252,7 +251,7 @@ div#sentaku4{
 .example4 label{
     position:absolute;
 		top: 275px;
-		left:205px;
+		left:55%;
     display: block;
     background: #eac3dc;
     color: #000;
