@@ -67,9 +67,9 @@ div{
 div#text_s{
     position:relative;
     top:980px;
-		left:45%;
+		left:50%;
     font-size: 28px;
-    width:380px;
+    width:500px;
 }
 
 #nextbutton{
