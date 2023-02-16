@@ -44,10 +44,9 @@ nav{
 .menu{
     position:absolute;
     text-align: center;
-	  top: 840px;
-	  left:35%;
-    font-size: 18px;
-    width:160px;
+	  top: 1000px;
+	  left:25%;
+    /*font-size: 18px;*/
     z-index:10000;
 }
 
@@ -56,8 +55,8 @@ nav{
 }
 .link label{
     position:absolute;
-		top: 270px;
-		left:40%;
+		top: 320px;
+		left:30%;
     display: block;
     background: #eac3dc;
     color: #000;
