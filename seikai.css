@@ -42,15 +42,39 @@ nav{
     -ms-transform: translateX(-50%);
   }
 
-.seikai{
-    position:relative;
-    top: 900px;
-		left:28%;
+
+div{
+  position:absolute;
+  top:40%;
+  left:31%;
+}
+
+.seikaido{
+  color:rgb(226, 43, 165);
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.seikai1{
+    top: 620px;
     font-size: 28px;
     width: 400px;
 }
 
-div#seikaido{
+.seikai2{
+    top: 660px;
+    font-size: 28px;
+    width: 400px;
+}
+
+.seikai3{
+    top: 790px;
+    font-size: 28px;
+    width: 400px;
+}
+
+/*div#seikaido{
   position:absolute;
   top:500px;
   left:31%;
@@ -58,7 +82,7 @@ div#seikaido{
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-}
+}*/
 /*
 body{
     background-image: url('img/seikai1.png'); 
