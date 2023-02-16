@@ -77,10 +77,10 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 440px;
-		left:26%;
-    font-size: 25px;
-    width:470px;
+		top: 430px;
+		left:25%;
+    font-size: 24px;
+    width:475px;
     height: 200px;
     /*height: 90px;*/
 }
@@ -88,18 +88,18 @@ div#quest{
 div#groupname{
     position:relative;
 		top: 420px;
-		left:26%;
-    font-size: 25px;
-    width:470px;
+		left:25%;
+    font-size: 24px;
+    width:475px;
     font-weight: bolder;
 }
 
 div#groupname2{
     position:relative;
 		top: 420px;
-		left:26%;
-    font-size: 25px;
-    width:470px;
+		left:25%;
+    font-size: 24px;
+    width:475px;
     font-weight: bolder;
 }
 
@@ -281,7 +281,7 @@ div#sentaku4{
   top: 770px;
   left: 600px;
   font-size: 15px;
-  width: 140px;
+  width: 150px;
   height: 50px;
   z-index: 10000;
   border-radius: 5px;
