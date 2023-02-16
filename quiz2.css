@@ -77,16 +77,17 @@ p#default{
 
 div#quest{
     position:relative;
-		top: 320px;
+		top: 470px;
 		left:26%;
     font-size: 28px;
-    width:400px;
+    width:480px;
+    height: 200px;
     /*height: 90px;*/
 }
 
 div#groupname{
     position:relative;
-		top: 370px;
+		top: 400px;
 		left:26%;
     font-size: 28px;
     width:400px;
@@ -95,7 +96,7 @@ div#groupname{
 
 div#groupname2{
     position:relative;
-		top: 505px;
+		top: 435px;
 		left:26%;
     font-size: 28px;
     width:400px;
