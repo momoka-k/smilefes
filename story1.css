@@ -43,16 +43,16 @@ nav{
     -ms-transform: translateX(-50%);
   }
 
-div{
+/*div{
     position:absolute;
     text-align: left;
     bottom: 28%;
     left: 53%;
     /*font-size: 28px;*/
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-  }
+  }*/
 
 /*div#text_q{
     position:relative;
@@ -66,6 +66,7 @@ div{
 
 .text_s{
     position:relative;
+    bottom:40%;
     /*top:960px;
 		left:53%;*/
     font-size: 28px;
