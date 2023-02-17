@@ -33,7 +33,7 @@ html {
 
 p{
     position:absolute;
-		top: 10%;
+		top: 5%;
 		left:60%;
 }
 
@@ -247,8 +247,8 @@ div#sentaku4{
     display: none;
 }
 
-#atari { position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden; }
-#hazure{ position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden;} 
+.atari { position:absolute; width:200px; height:40px; top:35%; left:40%; border-radius: 10px; visibility: hidden; }
+.hazure{ position:absolute; width:200px; height:40px; top:35%; left:40%; border-radius: 10px; visibility: hidden;} 
 
 .nextbutton{
   position:absolute;
