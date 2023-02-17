@@ -75,7 +75,8 @@ p#default{
     font-weight: 600;
 }
 
-a{  position:absolute;
+a{  
+    position:absolute;
     text-align: left;
     top:50%;
     left: 40%;
@@ -115,7 +116,8 @@ a{  position:absolute;
   padding: 20px;
 }
 
-div#sentaku1{
+
+.sentaku1{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -133,7 +135,7 @@ div#sentaku1{
     font-size: 14px;
 } */
 
-div#sentaku2{
+.sentaku2{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -144,7 +146,7 @@ div#sentaku2{
     z-index:10000;
 }
 
-div#sentaku3{
+.sentaku3{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -155,7 +157,7 @@ div#sentaku3{
     z-index:10000;
 }
 
-div#sentaku4{
+.sentaku4{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -171,7 +173,7 @@ div#sentaku4{
 }
 .example1 label{
     position:absolute;
-    top: 450px;
+    top: 70%;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -199,7 +201,7 @@ div#sentaku4{
 }
 .example2 label{
     position:absolute;
-    top: 450px;
+    top: 70%;
 		left:52%;
     display: block;
     background: #eac3dc;
@@ -227,7 +229,7 @@ div#sentaku4{
 }
 .example3 label{
     position:absolute;
-    top: 575px;
+    top: 80%;
 		left:27%;
     display: block;
     background: #eac3dc;
@@ -255,7 +257,7 @@ div#sentaku4{
 }
 .example4 label{
     position:absolute;
-    top: 575px;
+    top: 80%;
 		left:52%;
     display: block;
     background: #eac3dc;
