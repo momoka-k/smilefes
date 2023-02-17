@@ -249,8 +249,13 @@ div#sentaku4{
     display: none;
 }
 
-.atari { position:absolute; width:200px; height:40px; top:100%; left:35%; border-radius: 10px; visibility: hidden;}
-.hazure{ position:absolute; width:200px; height:40px; top:60%; left:35%; border-radius: 10px; visibility: hidden;} 
+seikai{
+    position:relative;
+    top: 60%;
+    left:35%;
+}
+.atari { position:absolute; width:200px; height:40px;  border-radius: 10px; visibility: hidden;}
+.hazure{ position:absolute; width:200px; height:40px;   border-radius: 10px; visibility: hidden;} 
 
 .nextbutton{
   position:absolute;
