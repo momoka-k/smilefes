@@ -283,10 +283,10 @@ a{
 #atari { position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden; }
 #hazure{ position:absolute; width:200px; height:40px; top:450px; left:40%; border-radius: 10px; visibility: hidden;} 
 
-#nextbutton{
+.nextbutton{
   position:absolute;
   text-align: center;
-  top: 770px;
+  top: 87%;
   left: 600px;
   font-size: 15px;
   width: 150px;
@@ -303,8 +303,8 @@ a{
 #kekka{
   position:absolute;
   text-align: center;
-  top: 770px;
-  left: 45%;
+  top: 87%;
+  left: 44%;
   font-size: 15px;
   width: 120px;
   height: 50px;
