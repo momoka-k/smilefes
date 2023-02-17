@@ -65,21 +65,22 @@ nav{
 }*/
 
 a{
-    text-align: left;
     position:absolute;
-    top:80%;
+    text-align: left;
+    top: 76%;
     left: 50%;
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);*/
   }
 
 .text_s{
     position:relative;
+    text-align: left;
     /*top:960px;
 		left:53%;*/
     font-size: 35px;
-    width:430px;
+    width:400px;
 }
 
 #nextbutton{
