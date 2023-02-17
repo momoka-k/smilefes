@@ -33,11 +33,11 @@ html {
 
 p{
     position:relative;
-		top: 0%;
 }
 
 .default{
     position:absolute;
+    top: 0%;
     left:60%;
     color:#CC0076;
     font-size: 70px;
@@ -244,6 +244,7 @@ div#sentaku4{
     background: #e984c4;
     color: #FFF;
 }
+
 .example4 input{
     display: none;
 }
