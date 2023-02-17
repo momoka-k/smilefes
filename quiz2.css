@@ -21,11 +21,13 @@ html {
   }
 
 
-body{
+nav{
+    position:absolute;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
 }
+
 p#default{
     position:relative;
 		top: 20px;
