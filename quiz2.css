@@ -75,32 +75,38 @@ p#default{
     font-weight: 600;
 }
 
-div#quest{
-    position:relative;
-		top: 430px;
-		left:25%;
-    font-size: 24px;
+a{
+    text-align: left;
+    position:absolute;
+    top:53%;
+    left: 25%;
     width:475px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+
+.groupname{
+    position:relative;
+		/*top: 0%;*/
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.groupname2{
+    position:relative;
+		/*top: 3%;*/
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.quest{
+    position:relative;
+		/*top: 6%;*/
+    font-size: 24px;
     height: 200px;
     /*height: 90px;*/
-}
-
-div#groupname{
-    position:relative;
-		top: 420px;
-		left:25%;
-    font-size: 24px;
-    width:475px;
-    font-weight: bolder;
-}
-
-div#groupname2{
-    position:relative;
-		top: 420px;
-		left:25%;
-    font-size: 24px;
-    width:475px;
-    font-weight: bolder;
 }
 
 .parent {
