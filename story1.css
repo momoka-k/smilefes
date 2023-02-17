@@ -46,9 +46,9 @@ nav{
 div{
     position:absolute;
     text-align: left;
-    /*bottom: 28%;
-    left: 43%;*/
-    font-size: 28px;
+    bottom: 28%;
+    left: 53%;
+    /*font-size: 28px;*/
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -64,10 +64,10 @@ div{
     height: 90px;
 }*/
 
-div#text_s{
+.text_s{
     position:relative;
-    top:960px;
-		left:53%;
+    /*top:960px;
+		left:53%;*/
     font-size: 28px;
     width:430px;
 }
