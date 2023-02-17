@@ -64,9 +64,18 @@ nav{
     height: 90px;
 }*/
 
+a{
+    text-align: left;
+    position:absolute;
+    bottom: 28%;
+    left: 53%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  }
+
 .text_s{
     position:relative;
-    bottom:40%;
     /*top:960px;
 		left:53%;*/
     font-size: 28px;
