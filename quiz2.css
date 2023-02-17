@@ -79,7 +79,7 @@ a{
     position:absolute;
     text-align: left;
     top:50%;
-    left: 30%;
+    left: 25%;
     width:475px;
     font-size: 24px;
     /*transform: translateX(-50%);
@@ -110,14 +110,13 @@ a{
     /*height: 90px;*/
 }
 
-.parent {
-  /*親要素はrelativeに*/
+/*.parent {
   position: relative;
   padding: 20px;
-}
+}*/
 
 
-.sentaku1{
+div#sentaku1{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -135,7 +134,7 @@ a{
     font-size: 14px;
 } */
 
-.sentaku2{
+div#sentaku2{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -146,7 +145,7 @@ a{
     z-index:10000;
 }
 
-.sentaku3{
+div#sentaku3{
     position:absolute;
     text-align: center;
 		top: 31px;
@@ -157,7 +156,7 @@ a{
     z-index:10000;
 }
 
-.sentaku4{
+div#sentaku4{
     position:absolute;
     text-align: center;
 		top: 31px;
