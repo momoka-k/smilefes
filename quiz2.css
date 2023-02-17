@@ -29,13 +29,12 @@ html {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
   }*/
-
-
-p{
-    position:relative;
-    top: 10px;
-}
-
+​
+​
+/*p{
+    
+}*/
+​
 .default{
     position:absolute;
     left:60%;
@@ -43,7 +42,7 @@ p{
     font-size: 70px;
     font-family: Arial;
 }
-
+​
 a{  
     position:absolute;
     text-align: left;
@@ -55,22 +54,22 @@ a{
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);*/
 }
-
-
+​
+​
 .groupname{
     position:relative;
 		/*top: 0%;*/
     font-size: 24px;
     font-weight: bolder;
 }
-
+​
 .groupname2{
     position:relative;
 		/*top: 3%;*/
     font-size: 24px;
     font-weight: bolder;
 }
-
+​
 .quest{
     position:relative;
 		/*top: 6%;*/
@@ -78,13 +77,13 @@ a{
     height: 200px;
     /*height: 90px;*/
 }
-
+​
 /*.parent {
   position: relative;
   padding: 20px;
 }*/
-
-
+​
+​
 div#sentaku1{
     position:absolute;
     text-align: center;
@@ -95,14 +94,14 @@ div#sentaku1{
     height: 90px;
     z-index:10000;
 }
-
+​
 /* #select1{
     position:absolute;
 		top: 385px;
 		left:60px;
     font-size: 14px;
 } */
-
+​
 div#sentaku2{
     position:absolute;
     text-align: center;
@@ -113,7 +112,7 @@ div#sentaku2{
     height: 90px;
     z-index:10000;
 }
-
+​
 div#sentaku3{
     position:absolute;
     text-align: center;
@@ -124,7 +123,7 @@ div#sentaku3{
     height: 90px;
     z-index:10000;
 }
-
+​
 div#sentaku4{
     position:absolute;
     text-align: center;
@@ -135,7 +134,7 @@ div#sentaku4{
     height: 90px;
     z-index:10000;
 }
-
+​
 .example1{
     display: flex;
 }
@@ -163,7 +162,7 @@ div#sentaku4{
 .example1 input{
     display: none;
 }
-
+​
 .example2{
     display: flex;
 }
@@ -191,7 +190,7 @@ div#sentaku4{
 .example2 input{
     display: none;
 }
-
+​
 .example3{
     display: flex;
 }
@@ -219,7 +218,7 @@ div#sentaku4{
 .example3 input{
     display: none;
 }
-
+​
 .example4{
     display: flex;
 }
@@ -244,20 +243,19 @@ div#sentaku4{
     background: #e984c4;
     color: #FFF;
 }
-
+​
 .example4 input{
     display: none;
 }
-
+​
 seikai{
     position:relative;
     top: 60%;
     left:35%;
 }
-
-.atari { position:absolute; width:200px; height:40px; border-radius: 10px; visibility: hidden;}
-.hazure{ position:absolute; width:200px; height:40px;   border-radius: 10px; visibility: hidden;} 
-
+.atari { position:absolute; top: 30%;left:40%; width:200px; height:40px;  border-radius: 10px; visibility: hidden;}
+.hazure{ position:absolute; top: 30%;left:40%; width:200px; height:40px;   border-radius: 10px; visibility: hidden;} 
+​
 .nextbutton{
   position:absolute;
   text-align: center;
@@ -274,7 +272,7 @@ seikai{
   color: white;
   font-size: 28px;
 }
-
+​
 .kekka{
   position:absolute;
   text-align: center;
