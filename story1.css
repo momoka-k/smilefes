@@ -67,8 +67,8 @@ nav{
 a{
     position:absolute;
     text-align: left;
-    top: 76%;
-    left: 35%;
+    top: 70%;
+    left: 30%;
     /*transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);*/
@@ -79,7 +79,7 @@ a{
     text-align: left;
     /*top:960px;
 		left:53%;*/
-    font-size: 35px;
+    font-size: 30px;
     width:400px;
 }
 
