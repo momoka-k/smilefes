@@ -33,7 +33,7 @@ html {
 
 p{
     position:relative;
-    top: 0%;
+    top: 10px;
 }
 
 .default{
