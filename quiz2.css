@@ -34,10 +34,11 @@ html {
 p{
     position:relative;
 		top: 0%;
-		left:60%;
 }
 
 .default{
+    position:absolute;
+    left:60%;
     color:#CC0076;
     font-size: 70px;
     font-family: Arial;
@@ -247,8 +248,8 @@ div#sentaku4{
     display: none;
 }
 
-.atari { position:absolute; width:200px; height:40px; top:60%; left:0%; border-radius: 10px; visibility: hidden;}
-.hazure{ position:absolute; width:200px; height:40px; top:60%; left:0%; border-radius: 10px; visibility: hidden;} 
+.atari { position:absolute; width:200px; height:40px; top:60%; left:44%; border-radius: 10px; visibility: hidden;}
+.hazure{ position:absolute; width:200px; height:40px; top:60%; left:44%; border-radius: 10px; visibility: hidden;} 
 
 .nextbutton{
   position:absolute;
