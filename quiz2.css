@@ -75,16 +75,15 @@ p#default{
     font-weight: 600;
 }
 
-a{
+a{  position:absolute;
     text-align: left;
-    position:absolute;
-    top:53%;
+    top:50%;
     left: 40%;
     width:475px;
     font-size: 24px;
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);*/
 }
 
 
