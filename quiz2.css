@@ -8,9 +8,6 @@ html {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
   }
 
   @keyframes fadeInAnime {
@@ -22,30 +19,13 @@ html {
       opacity: 1;
     }
   }
-  /*body{
-    background-image: url('img/quiz2.png');
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
+
+
+body{
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
-
-html {
-  animation-name: fadeInAnime;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-@keyframes fadeInAnime {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}*/
-
 p#default{
     position:relative;
 		top: 20px;
